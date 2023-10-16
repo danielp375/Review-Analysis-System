@@ -15,4 +15,9 @@
   <li>To provide customers a choice instead of having a fixed decision</li>
   <li>To test this system by analysing a dataset containing multiple customer ratings and reviews of the same product.</li>
 </ul>
-
+<h2>Data Collection</h2>
+<p>The data needed for this project can be summarized in two datasets</p>
+<ol>
+  <li>Training Data: This is the data that will be used for training the Review Classifier(Sentinental Analysis Model). For the training, we will need a dataset containing reviews and an indicator whether they are positive or not. This data is optional as the model is already trained and there is the default Sentinental Analysis CLassifier in the nltk package</li>
+  <li>Review Data: FOr the testing of the system, we will need a dataset with the product, review and ratings. It is preferred to have multiple reviews by different customers for the same product. </li>
+</ol>
