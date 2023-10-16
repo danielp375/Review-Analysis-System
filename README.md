@@ -36,7 +36,7 @@
   <img src="images/dist1.jpg" alt="Review Distribution">
   </li><br><br>
   <li>For the amazon review dataset, except for the product name, rating and review, all columns are dropped. The missing data is removed as it is comparably small compared to the entire dataset. The ratings have been converted from 1-5 to 0-1.<br>
-<h3>Missiging Values</h3>
+<h3>Missing Values</h3>
   <img src="images/missing2.jpg" alt="Missing data 2">
     <h3>Ratings Distribution</h3>
   <img src="images/dist2.jpg" alt="Rating Distribution"></li>
