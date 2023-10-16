@@ -18,7 +18,7 @@
 <h2>Data Collection</h2>
 <p>The data needed for this project can be summarized in two datasets</p>
 <ol>
-  <li>Training Data: This is the data that will be used for training the Review Classifier(Sentinental Analysis Model). For the training, we will need a dataset containing reviews and an indicator whether they are positive or not. This data is optional as the model is already trained and there is the default Sentinental Analysis CLassifier in the nltk package</li>
+  <li>Training Data: This is the data that will be used for training the Review Classifier(Sentimental Analysis Model). For the training, we will need a dataset containing reviews and an indicator whether they are positive or not. This data is optional as the model is already trained and there is the default Sentinental Analysis CLassifier in the nltk package</li>
   <li>Review Data: For the testing of the system, we will need a dataset with the product, review and ratings. It is preferred to have multiple reviews by different customers for the same product. </li>
 </ol>
 
@@ -29,14 +29,17 @@
 </ul>
 
 <h2>Data Preparation</h2>
-  <li>For the training data, the summary column has been dropped. There is no missing data in the reviews and values columns. The values in the value column have been transformed from 2 for postive and 1 for negative to 1 for positive and 1 for negative.<br><br>
-  <img src="images/missing1.jpg" alt="Missing data 1" width=500, height=300>
-  <img src="images/dist1.jpg" alt="Review Distribution" width=500, height=300>
+  <li>For the training data, the summary column has been dropped. There is no missing data in the reviews and values columns. The values in the value column have been transformed from 2 for postive and 1 for negative to 1 for positive and 1 for negative.<br>
+    <h3>Missing Values</h3>
+  <img src="images/missing1.jpg" alt="Missing data 1">
+    <h3>Review Distribution</h3>
+  <img src="images/dist1.jpg" alt="Review Distribution">
   </li><br><br>
   <li>For the amazon review dataset, except for the product name, rating and review, all columns are dropped. The missing data is removed as it is comparably small compared to the entire dataset. The ratings have been converted from 1-5 to 0-1.<br>
-  <br>
-  <img src="images/missing2.jpg" alt="Missing data 2" width=500, height=300>
-  <img src="images/dist2.jpg" alt="Rating Distribution" width=500, height=300></li>
+<h3>Missiging Values</h3>
+  <img src="images/missing2.jpg" alt="Missing data 2">
+    <h3>Ratings Distribution</h3>
+  <img src="images/dist2.jpg" alt="Rating Distribution"></li>
 
 
 <h2>Analysis Methods</h2>
