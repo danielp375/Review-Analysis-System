@@ -29,8 +29,14 @@
 </ul>
 
 <h2>Data Preparation</h2>
-  <li>For the training data, the summary column has been dropped. There is no missing data in the reviews and values columns. The values in the value column have been transformed from 2 for postive and 1 for negative to 1 for positive and 1 for negative.</li>
-  <li>For the amazon review dataset, except for the product name, rating and review, all columns are dropped. The missing data is removed as it is comparably small compared to the entire dataset. The ratings have been converted from 1-5 to 0-1.</li>
+  <li>For the training data, the summary column has been dropped. There is no missing data in the reviews and values columns. The values in the value column have been transformed from 2 for postive and 1 for negative to 1 for positive and 1 for negative.<br><br>
+  <img src="images/missing1.jpg" alt="Missing data 1" width=500, height=300>
+  <img src="images/dist1.jpg" alt="Review Distribution" width=500, height=300>
+  </li><br><br>
+  <li>For the amazon review dataset, except for the product name, rating and review, all columns are dropped. The missing data is removed as it is comparably small compared to the entire dataset. The ratings have been converted from 1-5 to 0-1.<br>
+  <br>
+  <img src="images/missing2.jpg" alt="Missing data 2" width=500, height=300>
+  <img src="images/dist2.jpg" alt="Rating Distribution" width=500, height=300></li>
 
 
 
