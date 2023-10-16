@@ -39,6 +39,37 @@
   <img src="images/dist2.jpg" alt="Rating Distribution" width=500, height=300></li>
 
 
+<h2>Analysis Methods</h2>
+<ul>
+  <li>
+    <b><u>MultinomialNB:</u></b> The MultinomialNB is a machine learning algorithm based on the Naive Bayes algorithm used for classifying text. We will be using this algorithm for creating the review classifier.
+  </li>
+  <li>
+    <b><u>Statistical Techniques:</u></b> A few Statistical techniques like mean along with graphical visualization techniques like bar graph will be used for analysing the data.
+  </li>
+</ul>
+
+<h2>Model Evaluation</h2>
+<p>The model evaluation is as follows:</p>
+<table>
+  <tr>
+    <td>Accuracy</td>
+    <td>0.82</td>
+  </tr>
+  <tr>
+    <td>Precision</td>
+    <td>0.82</td>
+  </tr>
+  <tr>
+    <td>Recall</td>
+    <td>0.82</td>
+  </tr>
+  <tr>
+    <td>F1 Score</td>
+    <td>0.82</td>
+  </tr>  
+</table>
+
 
 
 
