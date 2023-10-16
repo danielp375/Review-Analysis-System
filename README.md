@@ -70,10 +70,42 @@
   </tr>  
 </table>
 
+<h2>Results and Interpretation</h2>
+<p>Based on the analysis, the results obtained by analysis the ratings, reviews or both are different. Both have their advantages and disadvantages. Ratings may give give us a proper evaluation score. However, customers may not be able to express their opinions through ratings. Reviews on the other hand may give the customer's understanding. But it can only be classified into positive or negative reviews.</p>
+<h3>Review Analysis</h3>
+<img src="images/analysis2.jpg" alt="Review Analysis">
+<h3>Rating Analysis</h3>
+<img src="images/analysis3.jpg" alt="Rating Analysis">
+<h3>Combined Analysis</h3>
+<img src="images/analysis1.jpg" alt="Combined Analysis">
 
+<h2>Limitations</h2>
+<p></p>Though the system may be able to help create a combined rating for decision making, it is not perfect.</p>
+<ul>
+  <li>
+    The review classifier has a accuracy of 0.82 which is high but does not classify perfectly.
+  </li>
+  <li>
+    The reviews can only be classified into positive and negative.
+  </li>
+  <li>
+    The customer may want only feedback about particular features which is not extracted in this system.
+  </li>
+</ul>
 
-
-
-
-
+<h2>References</h2>
+<ul>
+  <li>
+    <a href="https://www.kaggle.com/datasets/bhavikardeshna/amazon-customerreviews-polarity">Training Dataset Link</a>
+  </li>
+  <li>
+    <a href="https://www.kaggle.com/datasets/PromptCloudHQ/amazon-reviews-unlocked-mobile-phones">Amazon Review Dataset</a>
+  </li>
+  <li>
+    <a href="https://www.nltk.org/">Nltk Documentations</a>
+  </li>
+  <li>
+    <a href="https://scikit-learn.org/stable/index.html">Sklearn Documentations</a>
+  </li>
+</ul>
 
